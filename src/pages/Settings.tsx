@@ -58,11 +58,11 @@ export function Settings() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <FieldLabel htmlFor="name">الاسم</FieldLabel>
-                  <TextInput id="name" defaultValue="منى عبد الرحمن" />
+                  <TextInput id="name" defaultValue="محمد بهاء" />
                 </div>
                 <div>
                   <FieldLabel htmlFor="email">البريد الإلكتروني</FieldLabel>
-                  <TextInput id="email" type="email" defaultValue="mona@wedi.eg" dir="ltr" />
+                  <TextInput id="email" type="email" defaultValue="admin@wedi.com" dir="ltr" />
                 </div>
                 <div>
                   <FieldLabel htmlFor="phone">رقم الهاتف</FieldLabel>

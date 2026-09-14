@@ -1,0 +1,147 @@
+import type { Customer } from '../types';
+
+export const customers: Customer[] = [
+{
+  id: 'CUS-4021',
+  name: 'أحمد محمد',
+  phone: '01012345678',
+  trips: 34,
+  completed: 31,
+  cancelled: 2,
+  disputes: 1,
+  lastActive: 'منذ 3 دقائق',
+  registeredAt: '2025/10/12',
+  active: true
+},
+{
+  id: 'CUS-4022',
+  name: 'سارة إبراهيم',
+  phone: '01098765432',
+  trips: 18,
+  completed: 17,
+  cancelled: 1,
+  disputes: 0,
+  lastActive: 'منذ 8 دقائق',
+  registeredAt: '2026/01/03',
+  active: true
+},
+{
+  id: 'CUS-4023',
+  name: 'عمر حسن',
+  phone: '01155667788',
+  trips: 9,
+  completed: 6,
+  cancelled: 2,
+  disputes: 2,
+  lastActive: 'منذ 22 دقيقة',
+  registeredAt: '2026/04/27',
+  active: true
+},
+{
+  id: 'CUS-4024',
+  name: 'مصطفى إبراهيم',
+  phone: '01277889900',
+  trips: 12,
+  completed: 11,
+  cancelled: 1,
+  disputes: 0,
+  lastActive: 'منذ 35 دقيقة',
+  registeredAt: '2026/02/16',
+  active: true
+},
+{
+  id: 'CUS-4025',
+  name: 'ندى فتحي',
+  phone: '01566778899',
+  trips: 5,
+  completed: 4,
+  cancelled: 1,
+  disputes: 0,
+  lastActive: 'منذ دقيقتين',
+  registeredAt: '2026/07/01',
+  active: true
+},
+{
+  id: 'CUS-4026',
+  name: 'خالد عبد الله',
+  phone: '01033445566',
+  trips: 41,
+  completed: 39,
+  cancelled: 1,
+  disputes: 1,
+  lastActive: 'اليوم، 12:04 م',
+  registeredAt: '2025/08/22',
+  active: true
+},
+{
+  id: 'CUS-4027',
+  name: 'هبة سيد',
+  phone: '01288990011',
+  trips: 7,
+  completed: 5,
+  cancelled: 1,
+  disputes: 1,
+  lastActive: 'منذ ساعة',
+  registeredAt: '2026/05/30',
+  active: true
+},
+{
+  id: 'CUS-4028',
+  name: 'ياسمين طارق',
+  phone: '01199001122',
+  trips: 22,
+  completed: 21,
+  cancelled: 1,
+  disputes: 0,
+  lastActive: 'اليوم، 09:52 ص',
+  registeredAt: '2025/12/11',
+  active: true
+},
+{
+  id: 'CUS-4029',
+  name: 'محمود شعبان',
+  phone: '01277001199',
+  trips: 3,
+  completed: 1,
+  cancelled: 2,
+  disputes: 0,
+  lastActive: 'اليوم، 08:22 ص',
+  registeredAt: '2026/08/19',
+  active: false
+},
+{
+  id: 'CUS-4030',
+  name: 'إسلام رمضان',
+  phone: '01011992288',
+  trips: 15,
+  completed: 14,
+  cancelled: 0,
+  disputes: 1,
+  lastActive: 'منذ 12 دقيقة',
+  registeredAt: '2026/03/25',
+  active: true
+},
+{
+  id: 'CUS-4031',
+  name: 'دينا عادل',
+  phone: '01522334455',
+  trips: 2,
+  completed: 1,
+  cancelled: 0,
+  disputes: 0,
+  lastActive: 'منذ دقيقة',
+  registeredAt: '2026/09/02',
+  active: true
+},
+{
+  id: 'CUS-4032',
+  name: 'شريف جابر',
+  phone: '01099112233',
+  trips: 6,
+  completed: 4,
+  cancelled: 2,
+  disputes: 0,
+  lastActive: 'أمس، 07:55 م',
+  registeredAt: '2026/06/14',
+  active: false
+}];

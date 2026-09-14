@@ -19,12 +19,8 @@ export function TopHeader({
   onToggleSidebar,
   collapsed,
   onOpenNotifications,
+  onLogout,
   unread
-
-
-
-
-
 }: {onToggleSidebar: () => void;collapsed: boolean;onOpenNotifications: () => void;onLogout: () => void;unread: number;}) {
   const [query, setQuery] = useState('');
   const [menuOpen, setMenuOpen] = useState(false);

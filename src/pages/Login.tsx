@@ -43,16 +43,12 @@ export function Login() {
       <div className="w-full max-w-[420px] bg-white rounded-2xl shadow-pop p-8 border border-line">
         
         <div className="flex flex-col items-center mb-8">
-          <div className="w-14 h-14 rounded-2xl bg-orange flex items-center justify-center mb-4">
-            <svg viewBox="0 0 24 24" className="w-8 h-8" fill="none">
-              <path d="M4 16h9l3-8" stroke="#FFFFFF" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="7" cy="18.5" r="1.8" fill="#FFFFFF" />
-              <circle cx="17" cy="18.5" r="1.8" fill="#FFFFFF" />
-              <path d="M16 8h3l2 4v4.5h-2" stroke="#FFFFFF" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </div>
-          <h1 className="text-[24px] font-extrabold text-navy">وِدي</h1>
-          <p className="text-[14px] text-ink-subtle mt-1">من هنا لهنالك</p>
+          <img src="/assets/dark logo.png" alt="وِدي" className="h-24 mb-2 object-contain" />
+          <p className="text-[15px] font-bold mt-2">
+            <span className="text-navy">من </span>
+            <span className="text-orange">هنا </span>
+            <span className="text-navy">لهناك</span>
+          </p>
         </div>
 
         <div className="mb-6">
